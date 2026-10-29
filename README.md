@@ -1,9 +1,8 @@
 # 440 Lab 4
 
-This repo contains the vacuum robot lab.
+This repository contains the two context-engineering strategies for the assignment.
 
-- `strategy_1/` holds strategy 1
-- `strategy_4/` is the empty placeholder for strategy 4
-- shared strategy 1 files stay in the project root
+- `strategy_1/`: persistent project context setup
+- `strategy_4/`: isolated sub-agent setup
 
-The layout is simple so both strategies can stay organized without being mixed together.
+The project is kept simple so each strategy is easy to review and compare.
