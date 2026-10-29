@@ -1,1 +1,1 @@
-numpy>=1.26
+# Strategy 1 and Strategy 4 demos use only the Python standard library.

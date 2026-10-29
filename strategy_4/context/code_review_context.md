@@ -1,10 +1,11 @@
 # Code Review Context
 
-Focus on:
-- Environment state transitions and terminal states.
-- Reward and penalty handling.
-- Whether obstacles and traps are represented distinctly.
-- Q-learning update and exploration logic.
-- Whether the main script is only a smoke test or a meaningful training run.
+Review the supplied vacuum-related AIMA source files.
 
-Report potential issues as questions to verify against the assignment, not as definitive bugs when requirements are unclear.
+Focus on:
+- What environment or algorithm each file implements.
+- How states, actions, transitions, rewards, and terminal states are represented where relevant.
+- Potential assumptions or limitations that should be checked against the current lab instructions.
+- Whether a file is a GUI/demo or reusable algorithm implementation.
+
+Do not assume that Q-learning is required. Report what is actually present in the supplied source and avoid claiming a bug without evidence.

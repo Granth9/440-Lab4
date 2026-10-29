@@ -1,15 +1,3 @@
 {
-  "hooks": {
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'context loaded'",
-            "timeout": 10
-          }
-        ]
-      }
-    ]
-  }
+  "note": "The Python demonstration loads context through context_loader.py. This settings file does not inject context into ChatGPT or a Python process."
 }
