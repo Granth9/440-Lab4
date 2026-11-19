@@ -1,4 +1,4 @@
-# CS440 Lab 4
+# CS440 Lab 5
 
 Q-learning on the 4x3 grid, plus 3 portable features: skills, hooks, and sub-agents.
 These run with plain Python/bash so they work in any IDE. Did not use MCP.
