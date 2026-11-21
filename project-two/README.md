@@ -50,8 +50,7 @@ From this project folder, use local clones of the Lab 4 and AIMA repositories li
 the original lab scripts and four AIMA source files into a fresh workspace.
 
 ```bash
-lab4_workspace="$(mktemp -d)/lab4"
-python3 demo/prepare_lab4.py .. ../../aima-python "$lab4_workspace"
+python3 demo/prepare_lab4.py .. ../aima-python "$lab4_workspace"
 python3 mini_coding_agent.py --cwd "$lab4_workspace" --skills-dir "$PWD/skill" \
   --approval ask --max-steps 10 --max-new-tokens 1500 \
   "Solve Lab 4 using the skill. Run both strategy demonstrations, inspect the AIMA MDP defaults, and write lab4_report.md with the results and Lab 5 comparison."

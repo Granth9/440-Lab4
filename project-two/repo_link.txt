@@ -1,4 +1,4 @@
 https://github.com/Granth9/440-Lab4
-Project Two is under project-two/ and is pending publication.
+Project Two implementation is located in the project-two/ directory of this repository.
 https://github.com/rasbt/mini-coding-agent
 https://github.com/aimacode/aima-python
